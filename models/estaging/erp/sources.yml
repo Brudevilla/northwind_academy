@@ -1,14 +1,16 @@
 sources:
   - name: erp
-    description: "Essa é a fonte do sistema ERP da northwind com dados de vendas e transações."
+    description: 'Essa é a fonte do sistema ERP da northwind com dados de vendas e transações.'
     database: fea24_6
     schema: raw_northwind
     tables:
       - name: employee
-        description: "Tabela com dados de funcionários."
+        description: 'Tabela com dados de funcionários.'
         columns:
           - name: id
-            description: "Chave primária da tabela funcionários."
+            description: 'Chave primária da tabela funcionários.'
             tests:
               - unique
               - not_null
+      - name: product
+      - name: category
