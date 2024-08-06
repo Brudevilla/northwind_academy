@@ -29,5 +29,5 @@ models:
         description: Blablabla
       - name: NIVEL_DE_PEDIDO
         description: Blablabla
-      - name: EH_DISCONTINUADO
+      - name: IS_DISCONTINUADO
         description: Blablabla
